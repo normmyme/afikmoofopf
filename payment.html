@@ -6,6 +6,7 @@
 <meta name="theme-color" content="#111111">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="format-detection" content="telephone=no, email=no, address=no, date=no">
 <title>MBANK</title>
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="icon-192.png">
@@ -13,6 +14,8 @@
 <meta name="mobile-web-app-capable" content="yes">
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  a, a:link, a:visited { color: inherit; text-decoration: none; pointer-events: none; }
+  [x-apple-data-detectors] { color: inherit !important; text-decoration: none !important; pointer-events: none !important; }
 
   :root {
     --bg: #111111;
